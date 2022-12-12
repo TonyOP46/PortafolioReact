@@ -10,9 +10,10 @@
     display: flex;
     float: left;
     justify-content: space-between;
-    margin-left: 15px;
+    margin-left: 100px;
     margin-right: -15px;
     padding: 1px;
+    
 }
 
 .portfolio-card{
@@ -75,7 +76,8 @@
 .social{
     width: 100%;
     height: auto;
-    margin-top: 20px;
+    margin-top: 10px;
+    display: grid;
     
 }
 
@@ -84,11 +86,31 @@
     font-size: 30px;
 }
 
-.social i{
-    font-size: 50px;
-    margin-left: 70px;
+.social-icons{
+    display: 100%;
     display: flex;
-    float: left; 
+    align-items: center;
+    justify-content: space-between;
+    justify-self: center;
+    margin-left: 50px;
+}
+
+.social-icons i{
+    font-size: 48px;
+    margin-bottom: 40px;
+    margin-left: 12px;
+}
+
+.icon1{
+    color: orangered;
+}
+
+.icon2{
+    color: aqua;
+}
+
+.icon3{
+    color: blue;
 }
 
 button{

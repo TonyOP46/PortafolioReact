@@ -63,7 +63,7 @@
   width: 400px;
   height: auto;
   margin-left: 22px;
-  margin-top: 40px;
+  margin-top: 25px;
   margin-bottom: -40px;
 }
 
@@ -76,6 +76,22 @@
   font-size: 18px;
   text-align: center;
 }
+
+.social{
+  width: 100%;
+  margin: auto;
+  display: flex;
+  
+}
+
+.social-icons{
+  margin-right: 25%;
+}
+
+.social-icons a{
+  margin-left: 50px;
+}
+
 
 .Great{
   width: 100px;
