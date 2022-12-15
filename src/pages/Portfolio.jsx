@@ -26,7 +26,7 @@ const Portfolio = () => {
           </div>
         </div>
         <div className="desc">
-          <h2>E-Comerce donde podrá realizar compras</h2>
+          <h2>E-Commerce where you can make purchases</h2>
         </div>
         <button>
           <a href="https://quiet-palmier-ca789e.netlify.app/" target="_blanc">
@@ -53,7 +53,7 @@ const Portfolio = () => {
           </div>
         </div>
         <div className="desc">
-        <h2>Aplicativo de la popular comedia Rick And Morty</h2>
+        <h2>Application of the popular comedy Rick And Morty</h2>
         </div>
         <button>
           <a
@@ -83,7 +83,7 @@ const Portfolio = () => {
           </div>
         </div>
         <div className="desc">
-          <h2>Aplicativo del popular anime Pokemon</h2>
+          <h2>Application of the popular anime Pokemon</h2>
         </div>
         <button>
           <a
