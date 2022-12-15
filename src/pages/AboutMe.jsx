@@ -22,23 +22,9 @@ const AboutMe = () => {
               possible.
             </p>
             <p>
-              I let myself be defeated, currently I don't have much experience
-              but I have all the desire to learn and to follow getting ready, I
-              like it make new friends and help those most need
+            I do not let myself be defeated in the face of adversity,
+I always apply all my potential, I also have all the desire to learn and continue preparing myself, I like to make new friends and help those who need it most.
             </p>
-            <div className="social">
-              <div className="social-icons">
-                <a href="https://github.com/TonyOP46" target="_blanc">
-                  <i className="fa-brands fa-github"></i>
-                </a>
-                <a
-                  href="https://www.linkedin.com/in/tony-ospino-parra-276454167/"
-                  target="_blanc"
-                >
-                  <i className="fa-brands fa-linkedin"></i>
-                </a>
-              </div>
-            </div>
           </div>
         </div>
       </Container>

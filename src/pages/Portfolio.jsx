@@ -3,7 +3,6 @@ import "../Portfolio.css";
 import ecommerce from "../PROJECTS/E-COMMERCE.png";
 import Rick from "../PROJECTS/rick.jpg";
 import pokemon from "../PROJECTS/Pokemon.png";
-import { Container } from "react-bootstrap";
 
 const Portfolio = () => {
   return (
@@ -16,16 +15,18 @@ const Portfolio = () => {
           <h2>E-Commerce</h2>
           <div className="social-icons">
             <div className="icon1">
-            <i className="fa-brands fa-html5"></i>
+              <i className="fa-brands fa-html5"></i>
             </div>
             <div className="icon2">
-            <i className="fa-brands fa-react"></i>
+              <i className="fa-brands fa-react"></i>
             </div>
             <div className="icon3">
-            <i className="fa-brands fa-css3-alt"></i>
+              <i className="fa-brands fa-css3-alt"></i>
             </div>
-            
           </div>
+        </div>
+        <div className="desc">
+          <h2>E-Comerce donde podrá realizar compras</h2>
         </div>
         <button>
           <a href="https://quiet-palmier-ca789e.netlify.app/" target="_blanc">
@@ -40,16 +41,19 @@ const Portfolio = () => {
         <div className="social">
           <h2>Rick And Morty</h2>
           <div className="social-icons">
-          <div className="icon1">
-            <i className="fa-brands fa-html5"></i>
+            <div className="icon1">
+              <i className="fa-brands fa-html5"></i>
             </div>
             <div className="icon2">
-            <i className="fa-brands fa-react"></i>
+              <i className="fa-brands fa-react"></i>
             </div>
             <div className="icon3">
-            <i className="fa-brands fa-css3-alt"></i>
+              <i className="fa-brands fa-css3-alt"></i>
             </div>
           </div>
+        </div>
+        <div className="desc">
+        <h2>Aplicativo de la popular comedia Rick And Morty</h2>
         </div>
         <button>
           <a
@@ -67,17 +71,19 @@ const Portfolio = () => {
         <div className="social">
           <h2>PokeApi</h2>
           <div className="social-icons">
-          <div className="icon1">
-            <i className="fa-brands fa-html5"></i>
+            <div className="icon1">
+              <i className="fa-brands fa-html5"></i>
             </div>
             <div className="icon2">
-            <i className="fa-brands fa-react"></i>
+              <i className="fa-brands fa-react"></i>
             </div>
             <div className="icon3">
-            <i className="fa-brands fa-css3-alt"></i>
+              <i className="fa-brands fa-css3-alt"></i>
             </div>
-            
           </div>
+        </div>
+        <div className="desc">
+          <h2>Aplicativo del popular anime Pokemon</h2>
         </div>
         <button>
           <a

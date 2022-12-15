@@ -23,11 +23,11 @@
     margin: auto;
     border-radius: 12px;
     display: grid;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
     box-shadow: 1px 1px 10px;
     margin-top: 50px;
-    margin-bottom: -50px;
     padding: 1px;
+    background-color: white;
     
 }
 .ecommerce{
@@ -76,14 +76,16 @@
 .social{
     width: 100%;
     height: auto;
-    margin-top: 10px;
     display: grid;
     
 }
 
 .social h2{
+    width: 100%;
+    height: auto;
     text-align: center;
-    font-size: 30px;
+    font-size: 22px;
+    
 }
 
 .social-icons{
@@ -92,12 +94,11 @@
     align-items: center;
     justify-content: space-between;
     justify-self: center;
-    margin-left: 50px;
+    
 }
 
 .social-icons i{
     font-size: 48px;
-    margin-bottom: 40px;
     margin-left: 12px;
 }
 
@@ -113,6 +114,17 @@
     color: blue;
 }
 
+.desc{
+    width: 70%;
+    text-align: center;
+    margin-left: 40px;
+    color: black;
+}
+
+.desc h2{
+    font-size: 20px;
+    font-weight: 400;
+}
 button{
     width: 120px;
     height: 30px;
@@ -127,5 +139,8 @@ button{
 button a{
     text-decoration: none;
     color: black;
+}
+button a:hover{
+    background-color: gray;
 }
 
