@@ -57,7 +57,7 @@ const Portfolio = () => {
         </div>
         <button>
           <a
-            href="https://sprightly-licorice-d52372.netlify.app/"
+            href="https://sweet-kitsune-3d3c7a.netlify.app"
             target="_blanc"
           >
             Project Detail
