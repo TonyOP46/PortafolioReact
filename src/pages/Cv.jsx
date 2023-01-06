@@ -12,7 +12,7 @@ const Cv = () => {
             <h1>
               My name is <span className="name">Tony Ospino</span>
             </h1>
-            <p>Developing tomorrow</p>
+            <p >Developing tomorrow</p>
             <p className="parrafo">
              <h3>I am a web developer</h3>I master
               technologies such as ReactJs, NodeJs and JavaScripts.

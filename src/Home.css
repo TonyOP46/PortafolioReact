@@ -110,5 +110,320 @@ body{
 }
 
 
+@media (max-width: 436px) {
+
+    .info{
+        width: 100%;
+        height: auto;
+        display: inline-block;
+        grid-template-columns: 1fr 1fr;
+        margin-top: 20px;
+        margin-bottom: -20px;
+        margin-left: 10px;
+    }
+    
+    .info-text{
+        width: 100%;
+        height: auto;
+        color: white;
+    }
+    .contain{
+        width: 70%;
+        font-size: 10px; 
+        text-shadow: 1px 1px 10px;  
+    }
+    
+    .contain h1{
+        margin-left: 10px;
+        font-size: 15px;
+    }
+    
+    .contain p{
+        margin-left: 10px;
+        font-size: 15px;
+    }
+    
+    .contain h3{
+        font-weight: 600;
+        color: blue;
+        font-size: 15px;
+    }
+    
+    .info-text a{
+        margin-right: 15px; 
+    }
+    
+    .name{
+        color: blue;
+    }
+    .desc{   
+        color: blue;
+    }
+    .social1{
+        width: 90%;
+        height: auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    .social-icons1{
+        font-size: 30px;
+        margin-left: 10px;
+        
+    }
+    
+    .social-downloads{
+        margin-top: -10px;
+        margin-right: 70px;
+        margin-left: -70px;
+    }
+    
+    .boton{
+        width: 100px;
+        height: 35px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        justify-self: center;
+        border-radius: 20px;
+        border: 0.1px solid gray;
+        margin-top: 10px;
+    }
+    
+    .boton button{
+        width: 100%;
+        height: 100%;
+        text-decoration: none;
+        font-size: 12px;
+        background-color: whitesmoke;
+    }
+    
+    .boton button:hover{
+        background-color: rgb(201, 190, 190);
+    }
+    
+    .intro{
+        width: 300px;
+        border-radius: 12px;
+        border: none;
+        margin-top: 12px;
+    }
+    
+    .intro img{
+        width: 70%;
+    
+    }
+}
+
+@media (min-width: 437px) and (max-width: 600px) {
+    
+    .info{
+        width: 100%;
+        height: auto;
+        display: inline-block;
+        grid-template-columns: 1fr 1fr;
+        margin-top: 20px;
+        margin-bottom: -20px;
+        margin-left: 10px;
+    }
+    
+    .info-text{
+        width: 100%;
+        height: auto;
+        color: white;
+    }
+    .contain{
+        width: 80%;
+        font-size: 20px; 
+        text-shadow: 1px 1px 10px;  
+    }
+    
+    .contain h1{
+        margin-left: 10px;
+        font-size: 22px;
+    }
+    
+    .contain p{
+        margin-left: 10px;
+        font-size: 22px;
+    }
+    
+    .contain h3{
+        font-weight: 600;
+        color: blue;
+        font-size: 22px;
+    }
+    
+    .info-text a{
+        margin-right: 15px; 
+    }
+    
+    .name{
+        color: blue;
+    }
+    .desc{   
+        color: blue;
+    }
+    .social1{
+        width: 90%;
+        height: auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    .social-icons1{
+        font-size: 45px;
+        margin-left: 10px;
+        
+    }
+    
+    .social-downloads{
+        margin-right: 50px;
+        margin-left: -50px;
+    }
+    
+    .boton{
+        width: 100px;
+        height: 35px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        justify-self: center;
+        border-radius: 20px;
+        border: 0.1px solid gray;
+        margin-top: 10px;
+    }
+    
+    .boton button{
+        width: 100%;
+        height: 100%;
+        text-decoration: none;
+        font-size: 12px;
+        background-color: whitesmoke;
+    }
+    
+    .boton button:hover{
+        background-color: rgb(201, 190, 190);
+    }
+    
+    .intro{
+        width: 300px;
+        border-radius: 12px;
+        border: none;
+        margin-top: 12px;
+    }
+    
+    .intro img{
+        width: 110%;
+    
+    }
+}
+
+@media (min-width: 601px) and (max-width: 771px) {
+    .info{
+        width: 100%;
+        height: auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-top: 20px;
+        margin-bottom: -20px;
+        margin-left: 1px;
+    }
+    
+    .info-text{
+        width: 100%;
+        height: auto;
+        color: white;
+    }
+    .contain{
+        width: 100%;
+        font-size: 10px; 
+        text-shadow: 1px 1px 10px;
+        margin-right: 12px;
+        margin-left: -12px;  
+    }
+    
+    .contain h1{
+        margin-left: 10px;
+        font-size: 20px;
+    }
+    
+    .contain p{
+        margin-left: 10px;
+        font-size: 20px;
+    }
+    
+    .contain h3{
+        font-weight: 600;
+        color: blue;
+        font-size: 20px;
+    }
+    
+    .info-text a{
+        margin-right: 15px; 
+    }
+    
+    .name{
+        color: blue;
+    }
+    .desc{   
+        color: blue;
+    }
+    .social1{
+        width: 100%;
+        height: auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    .social-icons1{
+        font-size: 40px;
+        margin-left: 1px;
+        
+    }
+    
+    .social-downloads{
+        margin-top: -1px;
+        margin-left: 10px;
+        
+    }
+    
+    .boton{
+        width: 100px;
+        height: 35px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        justify-self: center;
+        border-radius: 20px;
+        border: 0.1px solid gray;
+        margin-top: 10px;
+    }
+    
+    .boton button{
+        width: 100%;
+        height: 100%;
+        text-decoration: none;
+        font-size: 12px;
+        background-color: whitesmoke;
+    }
+    
+    .boton button:hover{
+        background-color: rgb(201, 190, 190);
+    }
+    
+    .intro{
+        width: 320px;
+        border-radius: 12px;
+        border: none;
+        margin-top: 12px;
+
+    }
+    
+    .intro img{
+        width: 80%;
+        height: 30%;
+    }
+}
 
 
