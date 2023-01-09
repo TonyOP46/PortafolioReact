@@ -4,34 +4,199 @@
     box-sizing: border-box;
 }
 
-
 .form{
-    width: 400px;
-    height: 500px;
-    margin: auto;
+    width: 100%;
+    height: 520px;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+
+}
+
+.form-action{
+    width: 550px;
+    height: auto;
+    background-color: aliceblue;
+    border: 1px solid gray;
     box-shadow: 1px 1px 10px;
-    margin-top: 20px;
     border-radius: 12px;
     text-align: center;
-    background-color: white;
+   
+}
+
+.form-action input{
+    margin-top: 12px;
     border: none;
-    
+    width: 400px;
+    height: 40px;
+    border-radius: 12px;
 }
 
-.mb-3{
-    width: 350px;
-    margin: auto;
-    margin-top: 30px;
+.form-action h1{
+    font-size: 40px;
+}
+
+.form-action p{
     font-size: 30px;
-    font-weight: 500;
+    font-weight: 750;
+}
+.form-action textarea{
+    border-radius: 12px;
+    border: none;
 }
 
-.button{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: auto;
-    margin-top: 35px;
+.form-action button{
+    margin-top: 10px;
+    margin-right: 100px;
+}
+@media (max-width: 436px) {
+    .form{
+        width: 100%;
+        height: 520px;
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
     
+    }
+    
+    .form-action{
+        width: 280px;
+        height: 400px;
+        background-color: aliceblue;
+        border: 1px solid gray;
+        box-shadow: 1px 1px 10px;
+        border-radius: 12px;
+        text-align: center;
+       
+    }
+    
+    .form-action input{
+        margin-top: 12px;
+        border: none;
+        width: 250px;
+        height: 20px;
+        border-radius: 12px;
+    }
+    
+    .form-action h1{
+        font-size: 20px;
+    }
+    
+    .form-action p{
+        font-size: 20px;
+        font-weight: 750;
+    }
+    .form-action textarea{
+        border-radius: 12px;
+        border: none;
+        width: 240px;
+        height: 150px;
+    }
+    
+    .form-action button{
+        margin-top: 10px;
+        margin-bottom: 20px;
+        margin-right: 20px;
+    }
 }
 
+@media (min-width: 437px) and (max-width: 600px) {
+    .form{
+        width: 100%;
+        height: 520px;
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+    
+    }
+    
+    .form-action{
+        width: 350px;
+        height: 450px;
+        background-color: aliceblue;
+        border: 1px solid gray;
+        box-shadow: 1px 1px 10px;
+        border-radius: 12px;
+        text-align: center;
+       
+    }
+    
+    .form-action input{
+        margin-top: 12px;
+        border: none;
+        width: 300px;
+        height: 30px;
+        border-radius: 12px;
+    }
+    
+    .form-action h1{
+        font-size: 30px;
+    }
+    
+    .form-action p{
+        font-size: 30px;
+        font-weight: 750;
+    }
+    .form-action textarea{
+        border-radius: 12px;
+        border: none;
+        width: 280px;
+        height: 180px;
+    }
+    
+    .form-action button{
+        margin-top: 10px;
+        margin-bottom: 20px;
+        margin-right: 10px;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 771px) {
+    .form{
+        width: 100%;
+        height: 520px;
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+    
+    }
+    
+    .form-action{
+        width: 380px;
+        height: 450px;
+        background-color: aliceblue;
+        border: 1px solid gray;
+        box-shadow: 1px 1px 10px;
+        border-radius: 12px;
+        text-align: center;
+       
+    }
+    
+    .form-action input{
+        margin-top: 12px;
+        border: none;
+        width: 300px;
+        height: 30px;
+        border-radius: 12px;
+    }
+    
+    .form-action h1{
+        font-size: 30px;
+    }
+    
+    .form-action p{
+        font-size: 30px;
+        font-weight: 750;
+    }
+    .form-action textarea{
+        border-radius: 12px;
+        border: none;
+        width: 300px;
+        height: 200px;
+    }
+    
+    .form-action button{
+        margin-top: 10px;
+        margin-right: 10px;
+    }
+}
